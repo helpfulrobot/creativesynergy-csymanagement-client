@@ -1,0 +1,6 @@
+---
+Name: 'csymanagement_client'
+After: 'csymanagement/*'
+---
+Director:
+  environment_type: 'live'

@@ -1,0 +1,128 @@
+@import '../../csymanagement/scss/pdf-document';
+
+// - Farben
+$fc: #465762;
+$fc-light: #b2b7bb;
+$brandcolor-one: #3BA1C7;
+$border-color: #D8D8DC;
+$box-color: #F3F3F4;
+
+// - Schrift
+$ff: 'Arial';
+
+// -------------------
+
+body {
+  color: $fc;
+  font-family: $ff, sans-serif;
+}
+
+#pdf-footer {
+  #inner {
+    border-top: 1pt solid $border-color;
+  }
+
+  #pagination {
+    color: $fc-light;
+  }
+}
+
+#letter-head {
+  #sender-address {
+    color: $fc-light;
+    border-bottom: 1pt solid $brandcolor-one;
+  }
+}
+
+#letter-extra-infos {
+  ul {
+    background: $box-color;
+  }
+}
+
+#content-2 {
+  color: $fc-light;
+}
+
+.line-item {
+  &:last-of-type {
+    border-bottom: 2pt solid $border-color;
+  }
+
+  .price {
+    s {
+      color: $brandcolor-one;
+
+      span {
+        color: $fc;
+      }
+    }
+  }
+
+  .item {
+    .discount {
+      color: $brandcolor-one;
+    }
+  }
+}
+
+.marks {
+  .mark {
+    background: $border-color;
+
+    &.mark-middle {
+      background: $brandcolor-one;
+    }
+  }
+}
+
+#pdf-header {
+  #inner {
+    border-bottom: 1pt solid $border-color;
+  }
+
+  ul {
+    li {
+      strong {
+        color: $brandcolor-one;
+      }
+    }
+  }
+}
+
+#price-summary {
+  ul {
+    li {
+      &#finalsum {
+        border-bottom: 2px solid $brandcolor-one;
+      }
+    }
+  }
+}
+
+#content,
+#content-1,
+#content-2,
+#content-3 {
+  table {
+    tr {
+      &:last-of-type {
+        td {
+          border-bottom: 2px solid $brandcolor-one;
+        }
+      }
+    }
+  }
+}
+
+.positions-head {
+  border-bottom: 2pt solid $border-color;
+}
+
+#signature-field {
+  background: $box-color;
+
+  #signature-field-legend {
+    border-top: 1px solid $border-color;
+  }
+}

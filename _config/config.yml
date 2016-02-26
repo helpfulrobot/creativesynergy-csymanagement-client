@@ -1,6 +1,9 @@
 ---
-Name: 'csymanagement_client'
+Name: 'csymanagement-client'
 After: 'csymanagement/*'
 ---
 Director:
   environment_type: 'live'
+Document:
+  extensions:
+    - ClientDocumentExtension

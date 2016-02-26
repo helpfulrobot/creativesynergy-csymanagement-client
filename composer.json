@@ -8,6 +8,7 @@
     "silverstripe/framework": "^3.3",
     "pelago/emogrifier": "@dev",
     "creativesynergy/silverstripe-wkhtmltopdf": "*",
+    "creativesynergy/csymanagement-client": "*",
     "micschk/silverstripe-rightsidebar": "dev-master",
     "tractorcow/silverstripe-autocomplete": "^3.4",
     "silverstripe/display-logic": "dev-master",

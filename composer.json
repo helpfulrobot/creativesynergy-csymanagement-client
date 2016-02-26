@@ -1,8 +1,8 @@
 {
   "name": "creativesynergy/csymanagement-client",
-  "description": "csymanagement-client",
+  "description": "extension for csymanagement",
   "keywords": [],
-  "type": "",
+  "type": "silverstripe-module",
   "require": {
     "pelago/emogrifier": "@dev",
     "creativesynergy/silverstripe-wkhtmltopdf": "*",

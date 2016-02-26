@@ -16,7 +16,7 @@
     "unclecheese/betterbuttons": "1.2.*"
   },
   "extra": {
-    "installer-name": "csymanagement_client"
+    "installer-name": "csymanagement-client"
   },
   "license": "",
   "authors": [

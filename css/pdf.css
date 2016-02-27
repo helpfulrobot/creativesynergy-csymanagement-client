@@ -89,6 +89,11 @@ strong {
 }
 
 /* line 50, ../../csymanagement/scss/pdf-document.scss */
+small {
+  font-size: 8pt;
+}
+
+/* line 54, ../../csymanagement/scss/pdf-document.scss */
 body {
   margin: 0;
   padding: 0;
@@ -98,7 +103,7 @@ body {
   line-height: 1.5em;
   color: #465762;
 }
-/* line 59, ../../csymanagement/scss/pdf-document.scss */
+/* line 63, ../../csymanagement/scss/pdf-document.scss */
 body#pdf-page {
   width: 172mm;
   height: 217mm;
@@ -106,7 +111,7 @@ body#pdf-page {
   padding-right: 14mm;
 }
 
-/* line 67, ../../csymanagement/scss/pdf-document.scss */
+/* line 71, ../../csymanagement/scss/pdf-document.scss */
 .marks {
   position: absolute;
   z-index: -10;
@@ -116,30 +121,30 @@ body#pdf-page {
   right: 0;
   height: 217mm;
 }
-/* line 76, ../../csymanagement/scss/pdf-document.scss */
+/* line 80, ../../csymanagement/scss/pdf-document.scss */
 .marks .mark {
   position: absolute;
   height: 1pt;
   width: 5mm;
   background: #dadddf;
 }
-/* line 82, ../../csymanagement/scss/pdf-document.scss */
+/* line 86, ../../csymanagement/scss/pdf-document.scss */
 .marks .mark.mark-left {
   left: 5mm;
 }
-/* line 86, ../../csymanagement/scss/pdf-document.scss */
+/* line 90, ../../csymanagement/scss/pdf-document.scss */
 .marks .mark.mark-right {
   right: 5mm;
 }
-/* line 90, ../../csymanagement/scss/pdf-document.scss */
+/* line 94, ../../csymanagement/scss/pdf-document.scss */
 .marks .mark.mark-top {
   top: 60mm;
 }
-/* line 94, ../../csymanagement/scss/pdf-document.scss */
+/* line 98, ../../csymanagement/scss/pdf-document.scss */
 .marks .mark.mark-bottom {
   bottom: 55mm;
 }
-/* line 98, ../../csymanagement/scss/pdf-document.scss */
+/* line 102, ../../csymanagement/scss/pdf-document.scss */
 .marks .mark.mark-middle {
   top: 108.5mm;
   left: 2.5mm;
@@ -147,7 +152,7 @@ body#pdf-page {
   background: #465762;
 }
 
-/* line 107, ../../csymanagement/scss/pdf-document.scss */
+/* line 111, ../../csymanagement/scss/pdf-document.scss */
 #pdf-header,
 #pdf-footer {
   position: relative;
@@ -155,43 +160,43 @@ body#pdf-page {
   margin-left: 24mm;
   margin-right: 14mm;
 }
-/* line 114, ../../csymanagement/scss/pdf-document.scss */
+/* line 118, ../../csymanagement/scss/pdf-document.scss */
 #pdf-header #spacer,
 #pdf-footer #spacer {
   height: 10mm;
 }
-/* line 118, ../../csymanagement/scss/pdf-document.scss */
+/* line 122, ../../csymanagement/scss/pdf-document.scss */
 #pdf-header #inner,
 #pdf-footer #inner {
   overflow: hidden;
   padding: 10mm 0;
 }
 
-/* line 124, ../../csymanagement/scss/pdf-document.scss */
+/* line 128, ../../csymanagement/scss/pdf-document.scss */
 #pdf-header {
   height: 40mm;
 }
-/* line 127, ../../csymanagement/scss/pdf-document.scss */
+/* line 131, ../../csymanagement/scss/pdf-document.scss */
 #pdf-header #inner {
   border-bottom: 1pt solid #dadddf;
 }
-/* line 131, ../../csymanagement/scss/pdf-document.scss */
+/* line 135, ../../csymanagement/scss/pdf-document.scss */
 #pdf-header ul {
   float: left;
   height: 10mm;
 }
-/* line 136, ../../csymanagement/scss/pdf-document.scss */
+/* line 140, ../../csymanagement/scss/pdf-document.scss */
 #pdf-header ul li strong {
   display: inline-block;
   font-weight: bold;
   width: 1.5em;
   color: #465762;
 }
-/* line 144, ../../csymanagement/scss/pdf-document.scss */
+/* line 148, ../../csymanagement/scss/pdf-document.scss */
 #pdf-header ul + ul {
   margin-left: 2em;
 }
-/* line 149, ../../csymanagement/scss/pdf-document.scss */
+/* line 153, ../../csymanagement/scss/pdf-document.scss */
 #pdf-header img {
   display: block;
   height: 10mm;
@@ -199,56 +204,56 @@ body#pdf-page {
   float: right;
 }
 
-/* line 157, ../../csymanagement/scss/pdf-document.scss */
+/* line 161, ../../csymanagement/scss/pdf-document.scss */
 #pdf-footer {
   font-size: 8pt;
   height: 40mm;
 }
-/* line 161, ../../csymanagement/scss/pdf-document.scss */
+/* line 165, ../../csymanagement/scss/pdf-document.scss */
 #pdf-footer #pagination {
   position: absolute;
   top: 2.5mm;
   right: 0;
   color: #879299;
 }
-/* line 168, ../../csymanagement/scss/pdf-document.scss */
+/* line 172, ../../csymanagement/scss/pdf-document.scss */
 #pdf-footer #inner {
   border-top: 1pt solid #dadddf;
   line-height: 1.5em;
   padding-top: 8mm;
   padding-bottom: 0mm;
 }
-/* line 175, ../../csymanagement/scss/pdf-document.scss */
+/* line 179, ../../csymanagement/scss/pdf-document.scss */
 #pdf-footer #inner ul.left {
   float: left;
 }
-/* line 179, ../../csymanagement/scss/pdf-document.scss */
+/* line 183, ../../csymanagement/scss/pdf-document.scss */
 #pdf-footer #inner ul.right {
   float: right;
 }
-/* line 182, ../../csymanagement/scss/pdf-document.scss */
+/* line 186, ../../csymanagement/scss/pdf-document.scss */
 #pdf-footer #inner ul.right .label {
   display: inline-block;
   width: 3.5em;
 }
-/* line 189, ../../csymanagement/scss/pdf-document.scss */
+/* line 193, ../../csymanagement/scss/pdf-document.scss */
 #pdf-footer #inner .center {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
-/* line 194, ../../csymanagement/scss/pdf-document.scss */
+/* line 198, ../../csymanagement/scss/pdf-document.scss */
 #pdf-footer #inner .center ul {
   display: inline-block;
   text-align: left;
 }
-/* line 198, ../../csymanagement/scss/pdf-document.scss */
+/* line 202, ../../csymanagement/scss/pdf-document.scss */
 #pdf-footer #inner .center ul .label {
   display: inline-block;
   width: 4.5em;
 }
 
-/* line 207, ../../csymanagement/scss/pdf-document.scss */
+/* line 211, ../../csymanagement/scss/pdf-document.scss */
 #letter-head {
   float: left;
   position: relative;
@@ -257,14 +262,14 @@ body#pdf-page {
   width: 85mm;
   height: 40mm;
 }
-/* line 215, ../../csymanagement/scss/pdf-document.scss */
+/* line 219, ../../csymanagement/scss/pdf-document.scss */
 #letter-head #letter-head-content {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
 }
-/* line 222, ../../csymanagement/scss/pdf-document.scss */
+/* line 226, ../../csymanagement/scss/pdf-document.scss */
 #letter-head #sender-address {
   display: inline-block;
   margin-bottom: 5mm;
@@ -275,7 +280,7 @@ body#pdf-page {
   line-height: 1;
 }
 
-/* line 233, ../../csymanagement/scss/pdf-document.scss */
+/* line 237, ../../csymanagement/scss/pdf-document.scss */
 #letter-extra-infos {
   position: relative;
   float: right;
@@ -283,7 +288,7 @@ body#pdf-page {
   width: 65mm;
   height: 40mm;
 }
-/* line 240, ../../csymanagement/scss/pdf-document.scss */
+/* line 244, ../../csymanagement/scss/pdf-document.scss */
 #letter-extra-infos ul {
   position: absolute;
   left: 0;
@@ -292,203 +297,228 @@ body#pdf-page {
   padding: 5mm 5mm 4mm 5mm;
   background: #f3f5f8;
 }
-/* line 248, ../../csymanagement/scss/pdf-document.scss */
+/* line 252, ../../csymanagement/scss/pdf-document.scss */
 #letter-extra-infos ul li {
   font-size: 8pt;
 }
-/* line 251, ../../csymanagement/scss/pdf-document.scss */
+/* line 255, ../../csymanagement/scss/pdf-document.scss */
 #letter-extra-infos ul li strong {
   display: inline-block;
   width: 12em;
 }
 
-/* line 259, ../../csymanagement/scss/pdf-document.scss */
+/* line 263, ../../csymanagement/scss/pdf-document.scss */
 #subject-line {
   margin: 15mm 0;
   font-weight: bold;
   font-size: 12pt;
 }
 
-/* line 265, ../../csymanagement/scss/pdf-document.scss */
+/* line 269, ../../csymanagement/scss/pdf-document.scss */
 #content-1 {
   margin-bottom: 10mm;
 }
 
-/* line 269, ../../csymanagement/scss/pdf-document.scss */
+/* line 273, ../../csymanagement/scss/pdf-document.scss */
 #content-2 {
   margin-top: 10mm;
   font-size: 8pt;
   color: #879299;
 }
 
-/* line 276, ../../csymanagement/scss/pdf-document.scss */
+/* line 280, ../../csymanagement/scss/pdf-document.scss */
 .positions-head {
   border-bottom: 2pt solid #dadddf;
   margin-bottom: 5mm;
   padding-bottom: 2.5mm;
 }
-/* line 281, ../../csymanagement/scss/pdf-document.scss */
+/* line 285, ../../csymanagement/scss/pdf-document.scss */
 .positions-head .col {
   font-weight: bold;
 }
 
-/* line 288, ../../csymanagement/scss/pdf-document.scss */
+/* line 292, ../../csymanagement/scss/pdf-document.scss */
 .positions-head .col,
 .line-item .col {
   float: left;
   margin-right: 5mm;
   text-align: right;
 }
-/* line 293, ../../csymanagement/scss/pdf-document.scss */
+/* line 297, ../../csymanagement/scss/pdf-document.scss */
 .positions-head .col.pos,
 .line-item .col.pos {
   width: 7mm;
 }
-/* line 297, ../../csymanagement/scss/pdf-document.scss */
+/* line 301, ../../csymanagement/scss/pdf-document.scss */
 .positions-head .col.item,
 .line-item .col.item {
   width: 90mm;
   text-align: left;
 }
-/* line 302, ../../csymanagement/scss/pdf-document.scss */
+/* line 306, ../../csymanagement/scss/pdf-document.scss */
 .positions-head .col.amount,
 .line-item .col.amount {
   width: 16.5mm;
 }
-/* line 306, ../../csymanagement/scss/pdf-document.scss */
+/* line 310, ../../csymanagement/scss/pdf-document.scss */
 .positions-head .col.price,
 .line-item .col.price {
   width: 18mm;
 }
-/* line 310, ../../csymanagement/scss/pdf-document.scss */
+/* line 314, ../../csymanagement/scss/pdf-document.scss */
 .positions-head .col.sum,
 .line-item .col.sum {
   width: 21mm;
   margin-right: 0;
 }
 
-/* line 317, ../../csymanagement/scss/pdf-document.scss */
+/* line 321, ../../csymanagement/scss/pdf-document.scss */
 .line-item {
   width: 172mm;
   margin-bottom: 2.5mm;
   padding-bottom: 2.5mm;
 }
-/* line 323, ../../csymanagement/scss/pdf-document.scss */
+/* line 327, ../../csymanagement/scss/pdf-document.scss */
 .line-item:last-of-type {
   margin-bottom: 5mm;
   padding-bottom: 5mm;
   border-bottom: 2pt solid #dadddf;
 }
-/* line 330, ../../csymanagement/scss/pdf-document.scss */
+/* line 333, ../../csymanagement/scss/pdf-document.scss */
+.line-item .optional {
+  position: relative;
+  width: 44mm;
+  margin-left: -23mm;
+  color: #879299;
+  text-align: right;
+}
+/* line 340, ../../csymanagement/scss/pdf-document.scss */
+.line-item .optional small {
+  margin-right: 14pt;
+}
+/* line 344, ../../csymanagement/scss/pdf-document.scss */
+.line-item .optional:after {
+  content: ' ';
+  position: absolute;
+  top: 3.2pt;
+  right: 0;
+  width: 8pt;
+  height: 8pt;
+  border: 1px solid #dadddf;
+}
+/* line 356, ../../csymanagement/scss/pdf-document.scss */
 .line-item .price s {
   color: #465762;
 }
-/* line 333, ../../csymanagement/scss/pdf-document.scss */
+/* line 359, ../../csymanagement/scss/pdf-document.scss */
 .line-item .price s span {
   color: #465762;
 }
-/* line 340, ../../csymanagement/scss/pdf-document.scss */
+/* line 366, ../../csymanagement/scss/pdf-document.scss */
 .line-item .item .item-title {
   display: block;
 }
-/* line 344, ../../csymanagement/scss/pdf-document.scss */
+/* line 370, ../../csymanagement/scss/pdf-document.scss */
 .line-item .item .discount {
   display: block;
   color: #465762;
 }
-/* line 350, ../../csymanagement/scss/pdf-document.scss */
+/* line 376, ../../csymanagement/scss/pdf-document.scss */
 .line-item .textonly {
   text-align: left;
   margin-right: 0;
   width: 160.5mm;
 }
 
-/* line 357, ../../csymanagement/scss/pdf-document.scss */
+/* line 383, ../../csymanagement/scss/pdf-document.scss */
 #content-3 {
   float: left;
   margin-right: 5mm;
   width: 85mm;
 }
 
-/* line 363, ../../csymanagement/scss/pdf-document.scss */
+/* line 389, ../../csymanagement/scss/pdf-document.scss */
 #summary {
   page-break-inside: avoid;
 }
 
-/* line 367, ../../csymanagement/scss/pdf-document.scss */
+/* line 393, ../../csymanagement/scss/pdf-document.scss */
 #price-summary {
   float: right;
+  page-break-inside: avoid;
 }
-/* line 371, ../../csymanagement/scss/pdf-document.scss */
+/* line 399, ../../csymanagement/scss/pdf-document.scss */
 #price-summary ul li {
   text-align: right;
 }
-/* line 374, ../../csymanagement/scss/pdf-document.scss */
+/* line 402, ../../csymanagement/scss/pdf-document.scss */
 #price-summary ul li span {
   display: inline-block;
   width: 26mm;
 }
-/* line 379, ../../csymanagement/scss/pdf-document.scss */
+/* line 407, ../../csymanagement/scss/pdf-document.scss */
 #price-summary ul li#finalsum {
   font-weight: bold;
   padding: 5mm 0 2.5mm 0;
   border-bottom: 2px solid #465762;
 }
-/* line 384, ../../csymanagement/scss/pdf-document.scss */
+/* line 412, ../../csymanagement/scss/pdf-document.scss */
 #price-summary ul li#finalsum.no-vat {
   padding-top: 0;
   margin-bottom: 2.5mm;
   text-align: left;
 }
-/* line 389, ../../csymanagement/scss/pdf-document.scss */
+/* line 417, ../../csymanagement/scss/pdf-document.scss */
 #price-summary ul li#finalsum.no-vat span {
   float: right;
   width: 35mm;
   text-align: right;
 }
-/* line 397, ../../csymanagement/scss/pdf-document.scss */
+/* line 425, ../../csymanagement/scss/pdf-document.scss */
 #price-summary ul li#no-vat {
   font-size: 8pt;
 }
 
-/* line 404, ../../csymanagement/scss/pdf-document.scss */
+/* line 432, ../../csymanagement/scss/pdf-document.scss */
 #signature-field {
+  page-break-inside: avoid;
   float: right;
   margin-top: 6.66667mm;
-  width: 65.5mm;
+  width: 61mm;
   background: #f3f5f8;
-  padding: 2.5mm 5mm;
+  padding: 2.5mm 3.33333mm;
   position: relative;
 }
-/* line 412, ../../csymanagement/scss/pdf-document.scss */
+/* line 441, ../../csymanagement/scss/pdf-document.scss */
 #signature-field #signature-field-label {
   position: absolute;
   top: 2.5mm;
-  left: 5mm;
+  left: 3.33333mm;
 }
-/* line 418, ../../csymanagement/scss/pdf-document.scss */
+/* line 447, ../../csymanagement/scss/pdf-document.scss */
 #signature-field #signature-field-legend {
   margin-top: 15mm;
   padding-top: 2.5mm;
   border-top: 1px solid #dadddf;
 }
-/* line 423, ../../csymanagement/scss/pdf-document.scss */
+/* line 452, ../../csymanagement/scss/pdf-document.scss */
 #signature-field #signature-field-legend span {
   display: inline-block;
+  font-size: 8pt;
 }
-/* line 426, ../../csymanagement/scss/pdf-document.scss */
+/* line 456, ../../csymanagement/scss/pdf-document.scss */
 #signature-field #signature-field-legend span:first-of-type {
   margin-right: 10mm;
 }
 
-/* line 437, ../../csymanagement/scss/pdf-document.scss */
+/* line 467, ../../csymanagement/scss/pdf-document.scss */
 #content table,
 #content-1 table,
 #content-2 table,
 #content-3 table {
   width: 10cm !important;
 }
-/* line 442, ../../csymanagement/scss/pdf-document.scss */
+/* line 472, ../../csymanagement/scss/pdf-document.scss */
 #content table tr:last-of-type td,
 #content-1 table tr:last-of-type td,
 #content-2 table tr:last-of-type td,
@@ -496,35 +526,35 @@ body#pdf-page {
   padding-bottom: 2.5mm;
   border-bottom: 2px solid #465762;
 }
-/* line 449, ../../csymanagement/scss/pdf-document.scss */
+/* line 479, ../../csymanagement/scss/pdf-document.scss */
 #content table tr:nth-last-child(2) td,
 #content-1 table tr:nth-last-child(2) td,
 #content-2 table tr:nth-last-child(2) td,
 #content-3 table tr:nth-last-child(2) td {
   padding-bottom: 5mm;
 }
-/* line 455, ../../csymanagement/scss/pdf-document.scss */
+/* line 485, ../../csymanagement/scss/pdf-document.scss */
 #content table tr td:first-of-type,
 #content-1 table tr td:first-of-type,
 #content-2 table tr td:first-of-type,
 #content-3 table tr td:first-of-type {
   padding-right: 2em;
 }
-/* line 462, ../../csymanagement/scss/pdf-document.scss */
+/* line 492, ../../csymanagement/scss/pdf-document.scss */
 #content p,
 #content-1 p,
 #content-2 p,
 #content-3 p {
   margin-top: 1em;
 }
-/* line 465, ../../csymanagement/scss/pdf-document.scss */
+/* line 495, ../../csymanagement/scss/pdf-document.scss */
 #content p:first-of-type,
 #content-1 p:first-of-type,
 #content-2 p:first-of-type,
 #content-3 p:first-of-type {
   margin-top: 0;
 }
-/* line 469, ../../csymanagement/scss/pdf-document.scss */
+/* line 499, ../../csymanagement/scss/pdf-document.scss */
 #content p + strong, #content p + ul, #content p + ol, #content p + h1, #content p + h2, #content p + h3, #content p + h4, #content p + h5, #content p + h6, #content p + table, #content p + div[class^="table-"],
 #content-1 p + strong,
 #content-1 p + ul,
@@ -562,7 +592,7 @@ body#pdf-page {
   margin-top: 1em;
   display: block;
 }
-/* line 486, ../../csymanagement/scss/pdf-document.scss */
+/* line 516, ../../csymanagement/scss/pdf-document.scss */
 #content h1 + strong, #content h1 + p, #content h1 + ul, #content h1 + ol, #content h1 + table, #content h1 + div[class^="table-"], #content h2 + strong, #content h2 + p, #content h2 + ul, #content h2 + ol, #content h2 + table, #content h2 + div[class^="table-"], #content h3 + strong, #content h3 + p, #content h3 + ul, #content h3 + ol, #content h3 + table, #content h3 + div[class^="table-"], #content h4 + strong, #content h4 + p, #content h4 + ul, #content h4 + ol, #content h4 + table, #content h4 + div[class^="table-"], #content h5 + strong, #content h5 + p, #content h5 + ul, #content h5 + ol, #content h5 + table, #content h5 + div[class^="table-"], #content h6 + strong, #content h6 + p, #content h6 + ul, #content h6 + ol, #content h6 + table, #content h6 + div[class^="table-"],
 #content-1 h1 + strong,
 #content-1 h1 + p,
@@ -675,7 +705,7 @@ body#pdf-page {
   margin-top: 1em;
   display: block;
 }
-/* line 497, ../../csymanagement/scss/pdf-document.scss */
+/* line 527, ../../csymanagement/scss/pdf-document.scss */
 #content ul,
 #content ol,
 #content-1 ul,
@@ -686,7 +716,7 @@ body#pdf-page {
 #content-3 ol {
   margin: 0 0 1em 1.25em;
 }
-/* line 501, ../../csymanagement/scss/pdf-document.scss */
+/* line 531, ../../csymanagement/scss/pdf-document.scss */
 #content ul li,
 #content ol li,
 #content-1 ul li,
@@ -697,14 +727,14 @@ body#pdf-page {
 #content-3 ol li {
   list-style-type: disc;
 }
-/* line 507, ../../csymanagement/scss/pdf-document.scss */
+/* line 537, ../../csymanagement/scss/pdf-document.scss */
 #content ol li,
 #content-1 ol li,
 #content-2 ol li,
 #content-3 ol li {
   list-style-type: decimal;
 }
-/* line 512, ../../csymanagement/scss/pdf-document.scss */
+/* line 542, ../../csymanagement/scss/pdf-document.scss */
 #content ul, #content ol,
 #content-1 ul,
 #content-1 ol,
@@ -714,7 +744,7 @@ body#pdf-page {
 #content-3 ol {
   list-style: outside;
 }
-/* line 515, ../../csymanagement/scss/pdf-document.scss */
+/* line 545, ../../csymanagement/scss/pdf-document.scss */
 #content ul + strong, #content ul + p, #content ul + h1, #content ul + h2, #content ul + h3, #content ul + h4, #content ul + h5, #content ul + h6, #content ul + table, #content ul + div[class^="table-"], #content ol + strong, #content ol + p, #content ol + h1, #content ol + h2, #content ol + h3, #content ol + h4, #content ol + h5, #content ol + h6, #content ol + table, #content ol + div[class^="table-"],
 #content-1 ul + strong,
 #content-1 ul + p,
